@@ -2,7 +2,8 @@
 using namespace std;
 
 int main () {
-    int i=0, n=0, primo =1, secondo=1, terzo=0;
+    int i, n, primo=1, secondo=1, terzo;
+    cin>>n;
     if (n<2) {
         cout<<"errore"<<endl;
     } else {
